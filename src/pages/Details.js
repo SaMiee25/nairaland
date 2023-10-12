@@ -26,8 +26,8 @@ function Details() {
     <div >
         <h1 className="text-center">{data?.title}</h1>
         <p  className="text-primary fs-italic" dangerouslySetInnerHTML={{__html: data?.description}}></p>
-        <img src={`http://localhost:8000/${data?.image}`} alt={data?.title} />
-        <img src={`http://localhost:8000/${data?.other}`} alt={data?.title} />
+        <img src={`https://samiee.pythonanywhere.com/${data?.image}`} alt={data?.title} />
+        <img src={`https://samiee.pythonanywhere.com/${data?.other}`} alt={data?.title} />
     </div>
   )
 }
